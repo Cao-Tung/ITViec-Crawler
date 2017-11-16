@@ -10,5 +10,16 @@ import scrapy
 
 class ItviecItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    company = scrapy.Field()
+    job = scrapy.Field()
+    area = scrapy.Field()
+    salary = scrapy.Field()
+    exp = scrapy.Field()
+    quantum = scrapy.Field()
+    description = scrapy.Field()
+    benefit = scrapy.Field()
+    require = scrapy.Field()
+    cv = scrapy.Field()
+    addresscompany = scrapy.Field()
+    deadline = scrapy.Field()
+    skill = scrapy.Field()
